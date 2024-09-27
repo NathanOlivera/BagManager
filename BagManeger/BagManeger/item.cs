@@ -6,10 +6,17 @@ using System.Threading.Tasks;
 
 namespace BagManeger
 {
-    internal class item
+    internal abstract class item 
     {
-        public string name = "a";
-        public int quant = 1;
+        public string name;
+        public int quant;
+
+        public item DeepCopy()
+        {
+            item othercopy = (item)this.MemberwiseClone();
+            return othercopy;
+        }
+        public abstract void Usar(Pokemon pokemon);
 
         public override string ToString()
         {

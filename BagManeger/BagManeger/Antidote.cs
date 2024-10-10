@@ -13,9 +13,16 @@ namespace BagManeger
             this.name = "Antidote";
             this.quant = 0;
         }
-        public override void Usar(Pokemon pokemon)
+        public override bool Usar(Pokemon pokemon)
         {
-            pokemon.hp += 20;
+            if(pokemon.envenenado == true)
+            {
+                pokemon.envenenado = false;
+                return true;
+            } else
+            {
+                return false;
+            }
         }
     }
 }

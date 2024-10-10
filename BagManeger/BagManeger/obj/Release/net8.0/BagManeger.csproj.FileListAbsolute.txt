@@ -1,0 +1,14 @@
+C:\Users\GATEWAY\source\repos\BagManeger\BagManeger\bin\Release\net8.0\BagManeger.exe
+C:\Users\GATEWAY\source\repos\BagManeger\BagManeger\bin\Release\net8.0\BagManeger.deps.json
+C:\Users\GATEWAY\source\repos\BagManeger\BagManeger\bin\Release\net8.0\BagManeger.runtimeconfig.json
+C:\Users\GATEWAY\source\repos\BagManeger\BagManeger\bin\Release\net8.0\BagManeger.dll
+C:\Users\GATEWAY\source\repos\BagManeger\BagManeger\bin\Release\net8.0\BagManeger.pdb
+C:\Users\GATEWAY\source\repos\BagManeger\BagManeger\obj\Release\net8.0\BagManeger.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\GATEWAY\source\repos\BagManeger\BagManeger\obj\Release\net8.0\BagManeger.AssemblyInfoInputs.cache
+C:\Users\GATEWAY\source\repos\BagManeger\BagManeger\obj\Release\net8.0\BagManeger.AssemblyInfo.cs
+C:\Users\GATEWAY\source\repos\BagManeger\BagManeger\obj\Release\net8.0\BagManeger.csproj.CoreCompileInputs.cache
+C:\Users\GATEWAY\source\repos\BagManeger\BagManeger\obj\Release\net8.0\BagManeger.dll
+C:\Users\GATEWAY\source\repos\BagManeger\BagManeger\obj\Release\net8.0\refint\BagManeger.dll
+C:\Users\GATEWAY\source\repos\BagManeger\BagManeger\obj\Release\net8.0\BagManeger.pdb
+C:\Users\GATEWAY\source\repos\BagManeger\BagManeger\obj\Release\net8.0\BagManeger.genruntimeconfig.cache
+C:\Users\GATEWAY\source\repos\BagManeger\BagManeger\obj\Release\net8.0\ref\BagManeger.dll

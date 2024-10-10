@@ -13,9 +13,22 @@ namespace BagManeger
             this.name = "Superpotion";
             this.quant = 0;
         }
-        public override void Usar(Pokemon pokemon)
+        public override bool Usar(Pokemon pokemon)
         {
-            pokemon.hp += 50;
+            if (pokemon.hp == 0 || pokemon.hp == pokemon.hpmax)
+            {
+                return false;
+            }
+            else if (pokemon.hp + 50 <= pokemon.hpmax)
+            {
+                pokemon.hp += 50;
+                return true;
+            }
+            else
+            {
+                pokemon.hp = pokemon.hpmax;
+                return true;
+            }
         }
     }
 }

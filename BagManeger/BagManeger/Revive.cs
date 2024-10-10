@@ -13,9 +13,16 @@ namespace BagManeger
             this.name = "Revive";
             this.quant = 0;
         }
-        public override void Usar(Pokemon pokemon)
+        public override bool Usar(Pokemon pokemon)
         {
-            pokemon.hp += 20;
+            if(pokemon.hp == 0)
+            {
+                pokemon.hp = pokemon.hpmax/2;
+                return true;
+            } else
+            {
+                return false;
+            }
         }
     }
 }

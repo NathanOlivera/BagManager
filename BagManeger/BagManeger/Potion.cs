@@ -8,14 +8,27 @@ namespace BagManeger
 {
     internal class Potion : item
     {
+        static public string audio = "C:\\Users\\GATEWAY\\source\\repos\\BagManeger\\BagManeger\\media\\heal.wav";
         public Potion()
         {
             this.name = "Potion";
             this.quant = 0;
         }
-        public override void Usar(Pokemon pokemon)
+        public override bool Usar(Pokemon pokemon)
         {
-            pokemon.hp += 20;
+            if (pokemon.hp == 0 || pokemon.hp == pokemon.hpmax)
+            {
+                return false;
+            }
+            else if (pokemon.hp + 20 <= pokemon.hpmax)
+            {
+                pokemon.hp += 20;
+                return true;
+            }
+            else {
+                pokemon.hp = pokemon.hpmax;
+                return true;
+            }
         }
     }
 }

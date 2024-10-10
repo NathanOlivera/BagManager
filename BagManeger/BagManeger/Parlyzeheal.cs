@@ -13,9 +13,17 @@ namespace BagManeger
             this.name = "Parlyze Heal";
             this.quant = 0;
         }
-        public override void Usar(Pokemon pokemon)
+        public override bool Usar(Pokemon pokemon)
         {
-            pokemon.hp += 20;
+            if (pokemon.paralisado == true)
+            {
+                pokemon.paralisado = false;
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
     }
 }

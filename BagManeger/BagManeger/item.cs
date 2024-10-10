@@ -16,7 +16,7 @@ namespace BagManeger
             item othercopy = (item)this.MemberwiseClone();
             return othercopy;
         }
-        public abstract void Usar(Pokemon pokemon);
+        public abstract bool Usar(Pokemon pokemon);
 
         public override string ToString()
         {
